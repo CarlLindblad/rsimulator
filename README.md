@@ -1,4 +1,4 @@
-# rsimulator-http docker #
+# rsimulator-http-docker #
 
 This docker image run an instance of the [rsimulator-http](https://github.com/bjuvensjo/rsimulator).
 
