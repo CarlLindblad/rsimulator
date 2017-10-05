@@ -6,7 +6,7 @@ This docker image run an instance of the [rsimulator-http](https://github.com/bj
 
 ### Run ###
 
-    docker run -d -t -i -p 8081:8080 --rm --name rsimulator-http -v $(PWD)/rsimulator_home:/var/rsimulator_home bjuvensjo/rsimulator-http
+    docker run -d -t -i -p 8081:8080 --rm --name rsimulator-http -v $(pwd)/rsimulator_home:/var/image_home bjuvensjo/rsimulator-http
 
 ### Data ###
 
