@@ -44,7 +44,7 @@ public class HttpModule extends AbstractModule {
         Map<String, String> responseContentTypes = new HashMap<String, String>();
         responseContentTypes.put("json", "application/json");
         responseContentTypes.put("txt", "text/plain");
-        responseContentTypes.put("xml", "application/xml");
+        responseContentTypes.put("xml", "text/xml");
         responseContentTypes.put("default", "text/plain");
 
         bind(new TypeLiteral<Map<String, String>>() {
