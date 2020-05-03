@@ -2,10 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>rsimulator-http</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>${project.artifactId} module</description>
     <url>https://github.com/bjuvensjo/rsimulator/wiki</url>
+    <modules>
+        <module>rsimulator-http-synk</module>
+    </modules>
     <parent>
         <groupId>com.github.bjuvensjo</groupId>
         <artifactId>rsimulator-pom-parent</artifactId>
